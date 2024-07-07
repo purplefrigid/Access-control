@@ -1,0 +1,6 @@
+--cpu Cortex-M3 -g --apcs=interwork 
+-I D:\工作\门禁\主机\STM32读卡(读写器自动读卡号)\RTE
+-I D:\MDK5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+--pd "__UVISION_VERSION SETA 514" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"
+--list .\startup_stm32f10x_hd.lst --xref -o .\output\startup_stm32f10x_hd.o --depend .\output\startup_stm32f10x_hd.d "Start\startup_stm32f10x_hd.s"

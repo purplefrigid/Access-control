@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\Lib -I.\Lib\inc -I.\User
+-I D:\工作\门禁\主机\STM32读卡(读写器自动读卡号)\RTE
+-I D:\MDK5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+-I D:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD
+-o .\output\uart.o --omf_browse .\output\uart.crf --depend .\output\uart.d "User\Uart.c"

@@ -1,0 +1,16 @@
+.\output\stm32f10x_it.o: Lib\stm32f10x_it.c
+.\output\stm32f10x_it.o: Lib\stm32f10x_it.h
+.\output\stm32f10x_it.o: Lib\stm32f10x.h
+.\output\stm32f10x_it.o: Lib\core_cm3.h
+.\output\stm32f10x_it.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\stm32f10x_it.o: Lib\system_stm32f10x.h
+.\output\stm32f10x_it.o: Lib\stm32f10x_conf.h
+.\output\stm32f10x_it.o: .\Lib\inc\stm32f10x_exti.h
+.\output\stm32f10x_it.o: .\Lib\stm32f10x.h
+.\output\stm32f10x_it.o: .\Lib\inc\stm32f10x_gpio.h
+.\output\stm32f10x_it.o: .\Lib\inc\stm32f10x_rcc.h
+.\output\stm32f10x_it.o: .\Lib\inc\stm32f10x_tim.h
+.\output\stm32f10x_it.o: .\Lib\inc\stm32f10x_usart.h
+.\output\stm32f10x_it.o: .\Lib\inc\misc.h
+.\output\stm32f10x_it.o: .\User\Uart.h
+.\output\stm32f10x_it.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
